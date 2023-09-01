@@ -4,11 +4,6 @@
   align-items: center;
   justify-content: space-evenly;
 }
-.qno {
-  display: flex;
-  font-weight: bold;
-  margin-bottom: 2em;
-}
 
 .optionLabel:hover {
   background: linear-gradient(to bottom, #d4e4ef 30%, #86aecc 100%);
