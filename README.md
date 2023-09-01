@@ -2,7 +2,8 @@
 
 A responsive web application for timer-based MCQ quizzes with a comparison screen at the end of the quiz
 
-<img src="https://drive.google.com/file/d/1algBdKOZFR5wBzp8is_nEA1mwq1a97gS/view?usp=drivesdk" width="128"/>
+![Uploading screen1.png…]()
+
 
 ## Problem statement
 
@@ -14,7 +15,7 @@ create a quiz application that meets the criteria detailed below.
 should auto-submit when the timer reaches zero.
 
 ● Users should be able to navigate to a specific question.
-● An overview panel or similar element should show all questions indicating: Which questions the user has visited, Which questions have been attempted.
+● An overview panel or similar element should show all questions indicating: Which questions the user has visited and which questions have been attempted.
 
 ● After the quiz or when the timer ends, users should be directed to a report page.
 ● This report should display each question with the user's answer and the correct answer side by
