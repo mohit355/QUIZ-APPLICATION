@@ -18,7 +18,6 @@ const Quiz = ({ fetchedQuestions }) => {
   const {} = useSelector((state) => state.quiz);
   const dispatch = useDispatch();
   dispatch(setQuestions(fetchedQuestions));
-
   return <Assignment />;
 };
 

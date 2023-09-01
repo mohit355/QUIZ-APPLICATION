@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }) {
     <Provider store={store}>
       <Head>
         <title>Quiz App</title>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/josh_Talk_Logo.png" sizes="any" />
       </Head>
       <Component {...pageProps} />
     </Provider>
