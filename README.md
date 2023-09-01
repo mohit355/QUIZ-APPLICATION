@@ -2,8 +2,12 @@
 
 A responsive web application for timer-based MCQ quizzes with a comparison screen at the end of the quiz
 
-![Uploading screen1.png…]()
 
+![screen1](https://github.com/mohit355/QUIZ-APPLICATION/assets/54148372/95eec2bd-e99b-408d-8eee-64ae9be9deda)
+
+![screen2](https://github.com/mohit355/QUIZ-APPLICATION/assets/54148372/54ac6767-c94c-4229-8b65-9ee5d581ef1f)
+
+![screen3](https://github.com/mohit355/QUIZ-APPLICATION/assets/54148372/ccb8a089-425c-4a2d-84ce-569488f3df26)
 
 ## Problem statement
 
