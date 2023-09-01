@@ -1,0 +1,51 @@
+.navigator {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigator p {
+  font-weight: 900;
+  margin: 10px 0;
+}
+.qNavigator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.questionNav {
+  border-radius: 50%;
+  border: 2px solid black;
+  width: 3rem;
+  height: 3rem;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qNavigator span {
+  cursor: pointer;
+}
+
+.qNavigator span.visited {
+  background-color: white;
+  color: black;
+}
+
+.qNavigator span.attended {
+  background-color: green;
+  color: white;
+}
+
+.qNavigator span.currentQuestion {
+  border: 2px solid yellow;
+}
+
+.qNavigator span:hover {
+  background-color: rgb(202, 164, 164);
+}
