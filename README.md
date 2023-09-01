@@ -1,6 +1,6 @@
 # Quiz Application
 
-Live: quiz-application-sand.vercel.app
+Live: [Click here](https://quiz-application-sand.vercel.app/)
 
 A responsive web application for timer-based MCQ quizzes with a comparison screen at the end of the quiz
 
