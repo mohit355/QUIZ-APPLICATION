@@ -1,6 +1,8 @@
 # Quiz Application
-https://drive.google.com/file/d/1algBdKOZFR5wBzp8is_nEA1mwq1a97gS/view?usp=drivesdk
-A responsive web application for timer based MCQ quiz with comparision screen at the end of quiz
+
+A responsive web application for timer-based MCQ quizzes with a comparison screen at the end of the quiz
+
+<img src="https://drive.google.com/file/d/1algBdKOZFR5wBzp8is_nEA1mwq1a97gS/view?usp=drivesdk" width="128"/>
 
 ## Problem statement
 
