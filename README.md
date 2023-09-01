@@ -78,7 +78,7 @@ You will see 4 options
 `
 For maintaining all the possible states and values like questions, submitted answers, current questions etc. are maintained using Redux`
 
-## Local Setup Process
+# Local Setup Process
 
 1. Clone this repo using `git clone https://github.com/mohit355/QUIZ-APPLICATION.git`
 2. Run the following command in order
@@ -89,10 +89,10 @@ For maintaining all the possible states and values like questions, submitted ans
 
 3. Your local server will be up check at `http://localhost:3000`
 
-## Assumptions
+# Assumptions
 All questions have only one correct answer
 
-##Challenged Faced
+# Challenged Faced
 
 1. Question Navigator
    There are the following possibilities to show that navigator for each question
@@ -103,7 +103,7 @@ All questions have only one correct answer
 
 The challenge was to maintain these states, doing that in different states is easy but how can we achieve it using a single state?
 
-####My approach
+#### My approach
 
 1.  Created one state named submitted answer which stores an object whose keys and value are as follows
 
