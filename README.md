@@ -2,6 +2,8 @@
 
 Live: [Click here](https://quiz-application-sand.vercel.app/)
 
+Repo: [Click here](https://github.com/mohit355/QUIZ-APPLICATION)
+
 A responsive web application for timer-based MCQ quizzes with a comparison screen at the end of the quiz
 
 <img src="https://github.com/mohit355/QUIZ-APPLICATION/assets/54148372/95eec2bd-e99b-408d-8eee-64ae9be9deda"></img>
@@ -87,6 +89,7 @@ For maintaining all the possible states and values like questions, submitted ans
 3. Your local server will be up check at `http://localhost:3000`
 
 # Assumptions
+
 All questions have only one correct answer
 
 # Challenged Faced
