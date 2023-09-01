@@ -52,7 +52,7 @@ const Timer = ({ Ref, calculateScore }) => {
   const getDeadTime = () => {
     let deadline = new Date();
 
-    deadline.setSeconds(deadline.getSeconds() + 120);
+    deadline.setSeconds(deadline.getSeconds() + 1800);
     return deadline;
   };
 

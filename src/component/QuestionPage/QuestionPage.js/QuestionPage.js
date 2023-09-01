@@ -20,24 +20,21 @@ const QuestionPage = ({ questions, index, updateAnswers, optionSelected }) => {
         {options.map((option, ind) => {
           let isSelected = optionSelected && optionSelected === option;
           return (
-            <>
-              <div className="radioItem">
-                <label
-                  key={ind}
-                  className={` ${
-                    isSelected ? styles.optionSelected : styles.optionLabel
-                  } `}
-                >
-                  <input
-                    type="radio"
-                    value={option}
-                    checked={optionSelected && optionSelected === option}
-                    onChange={onOptionChange}
-                  />
-                  {option}
-                </label>
-              </div>
-            </>
+            <div key={ind} className="radioItem">
+              <label
+                className={` ${
+                  isSelected ? styles.optionSelected : styles.optionLabel
+                } `}
+              >
+                <input
+                  type="radio"
+                  value={option}
+                  checked={optionSelected && optionSelected === option}
+                  onChange={onOptionChange}
+                />
+                {option}
+              </label>
+            </div>
           );
         })}
       </div>

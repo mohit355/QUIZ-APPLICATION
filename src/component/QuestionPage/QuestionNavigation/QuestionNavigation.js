@@ -16,6 +16,7 @@ const QuestionNavigation = () => {
         {questions.map((_, index) => {
           return (
             <span
+              key={index}
               id={index}
               onClick={() => {
                 dispatch(handleQuestionNaviagtion({ index }));

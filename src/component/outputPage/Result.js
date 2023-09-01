@@ -18,7 +18,7 @@ const Result = () => {
             let options = getQuestionOptions(question);
 
             return (
-              <div className={styles.question}>
+              <div key={question.question} className={styles.question}>
                 <span className={styles.questionText}>
                   [Q{index + 1}]. {question.question}
                 </span>
@@ -29,7 +29,7 @@ const Result = () => {
                     let isOptionSelected = option === submittedAnswers[index];
                     let isCorrectOption = question.correct_answer === option;
                     return (
-                      <div className="radioItem">
+                      <div key={option} className="radioItem">
                         <input
                           type="radio"
                           name="radio"
@@ -55,9 +55,19 @@ const Result = () => {
                           {isOptionSelected && (
                             <span>
                               {isCorrectAnswer ? (
-                                <Image height={30} width={30} src={Tick} />
+                                <Image
+                                  height={30}
+                                  width={30}
+                                  src={Tick}
+                                  alt="tick"
+                                />
                               ) : (
-                                <Image height={28} width={28} src={Cross} />
+                                <Image
+                                  height={28}
+                                  width={28}
+                                  src={Cross}
+                                  alt="cross"
+                                />
                               )}
                             </span>
                           )}
