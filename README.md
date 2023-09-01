@@ -4,11 +4,8 @@ Live: [Click here](https://quiz-application-sand.vercel.app/)
 
 A responsive web application for timer-based MCQ quizzes with a comparison screen at the end of the quiz
 
-
 <img src="https://github.com/mohit355/QUIZ-APPLICATION/assets/54148372/95eec2bd-e99b-408d-8eee-64ae9be9deda"></img>
-
 ![screen2](https://github.com/mohit355/QUIZ-APPLICATION/assets/54148372/54ac6767-c94c-4229-8b65-9ee5d581ef1f)
-
 ![screen3](https://github.com/mohit355/QUIZ-APPLICATION/assets/54148372/ccb8a089-425c-4a2d-84ce-569488f3df26)
 <img src="https://github.com/mohit355/QUIZ-APPLICATION/assets/54148372/defd3f13-40ef-4a3c-b398-d2055afab7b8" height="400px" width="250px" />
 <img src="https://github.com/mohit355/QUIZ-APPLICATION/assets/54148372/e7a45e16-cc32-4e93-bef8-b66f15f82183" height="400px" width="250px" />
@@ -121,6 +118,6 @@ Scenario
 
 -> **Current question**: Active index will be my current question. The navigator for that question will be of border yellow.
 
-##Data Fetching
+## Data Fetching
 
 I have used Static site generation to fetch the quiz data from the API because as we know SSG will generate and build the page at build time and we don't need to update the page on every requestion.
