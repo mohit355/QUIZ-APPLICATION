@@ -8,6 +8,12 @@ A responsive web application for timer-based MCQ quizzes with a comparison scree
 ![screen2](https://github.com/mohit355/QUIZ-APPLICATION/assets/54148372/54ac6767-c94c-4229-8b65-9ee5d581ef1f)
 
 ![screen3](https://github.com/mohit355/QUIZ-APPLICATION/assets/54148372/ccb8a089-425c-4a2d-84ce-569488f3df26)
+![WhatsApp Image 2023-09-01 at 10 51 02 PM](https://github.com/mohit355/QUIZ-APPLICATION/assets/54148372/defd3f13-40ef-4a3c-b398-d2055afab7b8)
+
+![WhatsApp Image 2023-09-01 at 10 51 35 PM](https://github.com/mohit355/QUIZ-APPLICATION/assets/54148372/e7a45e16-cc32-4e93-bef8-b66f15f82183)
+
+![WhatsApp Image 2023-09-01 at 10 51 36 PM](https://github.com/mohit355/QUIZ-APPLICATION/assets/54148372/19d3c1bd-83e6-4f0d-832a-b73c04f4b42b)
+
 
 ## Problem statement
 
