@@ -78,7 +78,7 @@ const Assignment = () => {
                     </button>
                   </div>
                 </div>
-                <div>
+                <div className={styles.submitButton}>
                   {currentQuestion === questions.length - 1 ? (
                     <button
                       className={styles.submit}
@@ -86,7 +86,7 @@ const Assignment = () => {
                         dispatch(onAssignmentSubmit({ Ref }));
                       }}
                     >
-                      SUBMIT
+                      Submit
                     </button>
                   ) : null}
                 </div>

@@ -3,13 +3,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import styles from "./QuestionPage.module.css";
 
-const QuestionPage = ({
-  questions,
-  index,
-  updateAnswers,
-  optionSelected,
-  calculateScore,
-}) => {
+const QuestionPage = ({ questions, index, updateAnswers, optionSelected }) => {
   const {} = useSelector((state) => state.quiz);
   const dispatch = useDispatch();
   let options = getQuestionOptions(questions);

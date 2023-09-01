@@ -13,29 +13,30 @@ const Result = () => {
       <p>THANK YOU</p>
       <p>Match Your Answer with the Correct Answer</p>
       <div>
-        {questions.map((question, index) => {
-          let options = getQuestionOptions(question);
+        {questions &&
+          questions.map((question, index) => {
+            let options = getQuestionOptions(question);
 
-          return (
-            <div className={styles.question}>
-              <span className={styles.questionText}>
-                [Q{index + 1}]. {question.question}
-              </span>
-              <div className={styles.radioSection}>
-                {options.map((option) => {
-                  let isCorrectAnswer =
-                    question.correct_answer === submittedAnswers[index];
-                  let isOptionSelected = option === submittedAnswers[index];
-                  let isCorrectOption = question.correct_answer === option;
-                  return (
-                    <div className="radioItem">
-                      <input
-                        type="radio"
-                        name="radio"
-                        checked={option === submittedAnswers[index]}
-                      />
-                      <label
-                        className={`
+            return (
+              <div className={styles.question}>
+                <span className={styles.questionText}>
+                  [Q{index + 1}]. {question.question}
+                </span>
+                <div className={styles.radioSection}>
+                  {options.map((option) => {
+                    let isCorrectAnswer =
+                      question.correct_answer === submittedAnswers[index];
+                    let isOptionSelected = option === submittedAnswers[index];
+                    let isCorrectOption = question.correct_answer === option;
+                    return (
+                      <div className="radioItem">
+                        <input
+                          type="radio"
+                          name="radio"
+                          checked={option === submittedAnswers[index]}
+                        />
+                        <label
+                          className={`
                          ${isCorrectOption ? styles.correctOption : ""}
                         
                         ${
@@ -49,25 +50,25 @@ const Result = () => {
                             : ""
                         }
                         `}
-                      >
-                        <span>{option}</span>
-                        {isOptionSelected && (
-                          <span>
-                            {isCorrectAnswer ? (
-                              <Image height={30} width={30} src={Tick} />
-                            ) : (
-                              <Image height={28} width={28} src={Cross} />
-                            )}
-                          </span>
-                        )}
-                      </label>
-                    </div>
-                  );
-                })}
+                        >
+                          <span>{option}</span>
+                          {isOptionSelected && (
+                            <span>
+                              {isCorrectAnswer ? (
+                                <Image height={30} width={30} src={Tick} />
+                              ) : (
+                                <Image height={28} width={28} src={Cross} />
+                              )}
+                            </span>
+                          )}
+                        </label>
+                      </div>
+                    );
+                  })}
+                </div>
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
       </div>
     </div>
   );
